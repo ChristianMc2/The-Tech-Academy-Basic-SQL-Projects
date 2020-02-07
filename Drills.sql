@@ -26,9 +26,12 @@ SELECT
 
 /*Drill 6*/
 
-SELECT specialist_fname, specialist_lname, specialist_contact FROM tbl_specialist;
+SELECT specialist_fname, specialist_lname, specialist_contact FROM tbl_specialist WHERE specialist_id = 1;
 
 /*Drill 7*/
+
+CREATE DATABASE drill11;
+USE drill11;
 
 CREATE TABLE tbl_name (		
 		fName VARCHAR(50) PRIMARY KEY NOT NULL,
@@ -69,5 +72,9 @@ SELECT
 	FROM tbl_name
 	INNER JOIN tbl_contact  ON fName = contact_fName								
 ;			
+
+
+
+		
 
 
