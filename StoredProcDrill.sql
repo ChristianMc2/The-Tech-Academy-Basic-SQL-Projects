@@ -1,4 +1,4 @@
-
+USE AdventureWorks2014;
 GO
 CREATE PROCEDURE dbo.spSpeciesInfo @City nvarchar(50) = NULL, @AddressLine1 nvarchar(50) = NULL
 AS
